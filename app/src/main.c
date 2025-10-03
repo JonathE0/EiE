@@ -17,7 +17,7 @@ int main(void) {
 
     ret = gpio_pin_configure_dt(&led0, GPIO_OUTPUT_ACTIVE);
     if (ret < 0) {
-        return ret
+        return ret;
     }
 
     while (1) {
